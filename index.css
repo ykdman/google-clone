@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header  */
+#header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+#header .header-left,
+#header .header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.4rem; */
+  vertical-align: center;
+  flex-shrink: 0;
+}
+
+#header .header-left a {
+  padding: 5px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+#header .header-left a:first-child {
+  margin: 0px 5px 0px 15px;
+}
+
+#header .header-right a {
+  min-width: auto;
+  padding: 5px;
+  margin-left: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#header .header-right a:nth-child(2) {
+  margin-right: 15px;
+}
+#header .header-right a:nth-last-child(1) {
+  margin-right: 8px;
+}
+
+#btn-login {
+  color: #fff;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 96px;
+  text-align: center;
+  padding: 9px 23px;
+  height: 36px;
+}
+#btn-login:hover {
+  background-color: #2164bd;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+#btn-apps:hover {
+  /* border: 0px solid transparent; */
+  text-decoration: none !important;
+  background-color: #ddd;
+  border-radius: 50%;
+}

@@ -9,7 +9,13 @@
 ## To-Do
 
 - [ ] Header
-- [ ] Logo section
-  - [ ] LogoImage Pagenation
-- [ ] main Section
+  - [ ] Style
+  - [ ] Gmail
+  - [ ] 스토어
+  - [ ] Google 정보
+  - [ ] 이미지
+  - [ ] 메뉴판
+- [ ] Logo Section
+  - [ ] swipe
 - [ ] Search Section
+- [ ] Footer
