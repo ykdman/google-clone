@@ -4,18 +4,16 @@
 
 - HTML5
 - CSS3
-- Javascript
 
 ## To-Do
 
-- [ ] Header
-  - [ ] Style
-  - [ ] Gmail
-  - [ ] 스토어
-  - [ ] Google 정보
-  - [ ] 이미지
-  - [ ] 메뉴판
-- [ ] Logo Section
-  - [ ] swipe
-- [ ] Search Section
-- [ ] Footer
+- [x] Header
+  - [x] Style
+  - [x] Gmail
+  - [x] 스토어
+  - [x] Google 정보
+  - [x] 이미지
+  - [x] 메뉴판
+- [x] Logo Section
+- [x] Search Section
+- [x] Footer
